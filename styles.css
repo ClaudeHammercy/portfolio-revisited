@@ -1,0 +1,67 @@
+.Form {
+    display: flex;
+    flex-direction: row;
+}
+
+#TopBar {
+    height: 80px;
+    display: flex;
+    background-color: salmon;
+    border-style: ridge;
+    border-color: purple;
+}
+
+#TopBarLeft {
+    height: 70px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25pt;
+    font-style: italic;
+    color: whitesmoke;padding-top: 5px;
+}
+
+#TopBarRight {
+    height: 70px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    padding-top: 5px;
+}
+
+#MainBody {
+    border-style: ridge;
+    border-color: red;
+    display: flex;   
+}
+
+#LeftBlock {
+    border-style: ridge;
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+  
+}
+
+#RightBlock {
+    border-style: ridge;
+    border-color: chartreuse;;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+#BottomBlock {
+    border-style: ridge;
+    border-color: darkblue;
+    display: flex;
+    justify-content: center;
+    background-color: salmon;
+    color: whitesmoke;
+}
